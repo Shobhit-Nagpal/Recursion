@@ -12,7 +12,7 @@ const fibs = (num) => {
         fibsArr.push(nextElement);
     }
 
-    console.log(fibsArr);
+    return fibsArr;
 }
 
-fibs(8);
+console.log(fibs(8));
